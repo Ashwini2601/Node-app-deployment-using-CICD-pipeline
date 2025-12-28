@@ -5,7 +5,7 @@ Whenever code is pushed to the GitHub repository, the pipeline automatically **b
 ## Architecture
 This Node.js CI/CD pipeline demonstrates automated deployment of a Node.js application on an AWS EC2 instance using Jenkins, GitHub, and PM2.
 
-![Architecture](images/architecture.png)
+![Architecture](Images/architecture.png)
 
 
 ## Technologies & Platforms
@@ -31,7 +31,7 @@ This Node.js CI/CD pipeline demonstrates automated deployment of a Node.js appli
    3. Jenkins port (8080)
    4. Note public IPs for future access.
 
-   ![Architecture](images/img1.png)
+   ![Architecture](Images/img1.png)
 
 
 ### Step 2️: Create & Clone GitHub Repository
@@ -44,7 +44,7 @@ This Node.js CI/CD pipeline demonstrates automated deployment of a Node.js appli
 2. cd Node-app-deployment-using-CICD-pipeline
 
  
-![Architecture](images/img2.png)
+![Architecture](Images/img2.png)
 
 ### Step 3:Create Application & Jenkins Configuration Files
 
@@ -141,7 +141,7 @@ app.listen(port, () => {
 2. git commit -m "Added all files to github"
 3. git push -u origin main 
 
-![Architecture](images/img3.png)
+![Architecture](Images/img3.png)
 
 ### Step 4: Install Required Plugins
 1. SSH Agent
@@ -159,7 +159,7 @@ app.listen(port, () => {
 3. Private Key: paste key or choose file
 4. ID: node-app-key
 
-![Architecture](images/img4.png)
+![Architecture](Images/img4.png)
 
 ### Step 6: Create Jenkins Job
 
@@ -174,11 +174,11 @@ app.listen(port, () => {
 
 #### 2. Check Console Output
 
-![Architecture](images/img5.png)
+![Architecture](Images/img5.png)
 
 #### 3.Access app in browser:http://<EC2-PUBLIC-IP:3000
  
 
-![Architecture](images/img6.png)
+![Architecture](Images/img6.png)
 
 #### Your Node.js app is now deployed and running using Jenkins CI/CD Pipeline with PM2 on AWS EC2!
