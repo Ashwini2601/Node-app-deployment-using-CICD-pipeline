@@ -5,7 +5,7 @@ Whenever code is pushed to the GitHub repository, the pipeline automatically **b
 ## Architecture
 This Node.js CI/CD pipeline demonstrates automated deployment of a Node.js application on an AWS EC2 instance using Jenkins, GitHub, and PM2.
 
-![Architecture](images/img-1.png)
+![Architecture](images/architecture.png)
 
 
 ## Technologies & Platforms
